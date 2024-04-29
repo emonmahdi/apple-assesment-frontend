@@ -1,9 +1,9 @@
+import Navbar from "./components/shared/Navbar";
+
 function App() {
   return (
     <>
-      <h2 className="text-3xl font-bold underline bg-purple-500 p-3">
-        New Apple Products
-      </h2>
+      <Navbar />
     </>
   );
 }
