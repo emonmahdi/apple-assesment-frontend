@@ -1,3 +1,6 @@
+import GridSection from "./components/GridSection";
+import GridSectionThree from "./components/GridSectionThree";
+import GridSectionTwo from "./components/GridSectionTwo";
 import Header from "./components/Header";
 import IPhone15 from "./components/IPhone15";
 import IPhone15Pro from "./components/IPhone15Pro";
@@ -10,6 +13,9 @@ function App() {
       <Header />
       <IPhone15Pro />
       <IPhone15 />
+      <GridSection />
+      <GridSectionTwo />
+      <GridSectionThree />
     </>
   );
 }
