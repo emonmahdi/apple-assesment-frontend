@@ -1,5 +1,7 @@
 // import { LiaGreaterThanSolid } from "react-icons/lia";
 
+import Button from "./reusable/Button";
+
 const Header = () => {
   return (
     <div>
@@ -15,7 +17,7 @@ const Header = () => {
           <p className="hero-sub-title">
             A plan as innovative as our products.
           </p>
-          <button className="learn-more-btn">Learn More</button>
+          <Button>Learn More</Button>
         </div>
       </div>
     </div>
