@@ -57,3 +57,22 @@
   font-size: 24.94px;
   line-height: 32px;
 }
+/* =================== */
+.Iphone15_section {
+  background-image: url("../src/assets/iphone15.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 90vh;
+  width: 100%;
+  padding: 10px 0;
+}
+.iphone-title {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+}
+.iphone-subtitle {
+  font-size: 24.94px;
+  line-height: 32px;
+}
