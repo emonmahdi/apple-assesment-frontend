@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.banner-area {
+  background-image: url("../src/assets/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 90vh;
+  width: 100%;
+  padding: 10px 0;
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 60px;
+  font-weight: 700;
+  color: rgba(29, 29, 31, 1);
+  margin-bottom: 10px;
+}
+.hero-sub-title {
+  font-size: 25.48px;
+  line-height: 32px;
+}
+.learn-more-btn {
+  background-color: rgba(0, 113, 227, 1);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 30px;
+  margin: 10px 0;
+}
