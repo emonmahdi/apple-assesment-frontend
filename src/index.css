@@ -27,5 +27,33 @@
   color: #fff;
   padding: 6px 12px;
   border-radius: 30px;
-  margin: 10px 0;
+  margin: 10px 8px;
+}
+.learn-more-btn-white {
+  border: 1px solid rgba(0, 113, 227, 1);
+  color: rgba(0, 113, 227, 1);
+  background-color: transparent;
+  padding: 6px 15px;
+  border-radius: 30px;
+  margin: 10px 8px;
+}
+
+/* =================== */
+.Iphone15_pro_section {
+  background-image: url("../src/assets/ip15-pro.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 90vh;
+  width: 100%;
+  padding: 10px 0;
+}
+.iphone-pro-title {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+}
+.iphone-pro-subtitle {
+  font-size: 24.94px;
+  line-height: 32px;
 }
