@@ -1,9 +1,11 @@
+import GallerySlider from "./components/GallerySlider";
 import GridSection from "./components/GridSection";
 import GridSectionThree from "./components/GridSectionThree";
 import GridSectionTwo from "./components/GridSectionTwo";
 import Header from "./components/Header";
 import IPhone15 from "./components/IPhone15";
 import IPhone15Pro from "./components/IPhone15Pro";
+import SliderSection from "./components/SliderSection";
 import Navbar from "./components/shared/Navbar";
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <GridSection />
       <GridSectionTwo />
       <GridSectionThree />
+      <SliderSection />
+      <GallerySlider />
     </>
   );
 }
