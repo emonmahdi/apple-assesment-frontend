@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import IPhone15 from "./components/IPhone15";
 import IPhone15Pro from "./components/IPhone15Pro";
 import SliderSection from "./components/SliderSection";
+import Footer from "./components/shared/Footer";
 import Navbar from "./components/shared/Navbar";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <GridSectionThree />
       <SliderSection />
       <GallerySlider />
+      <Footer />
     </>
   );
 }

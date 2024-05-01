@@ -152,3 +152,13 @@
   height: 30vh;
   max-width: 100%;
 }
+/* ========================== */
+.footer-section {
+  background-color: rgba(245, 245, 247, 1);
+  padding: 25px 20px;
+}
+.footer-text-content,
+.footer-menu-section {
+  width: 1024px;
+  margin: 0 auto;
+}
