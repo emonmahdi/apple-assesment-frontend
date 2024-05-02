@@ -5,7 +5,7 @@ import { PiBagSimple } from "react-icons/pi";
 const Navbar = () => {
   return (
     <div>
-      <nav className="flex items-center justify-between flex-wrap  p-6">
+      <nav className="flex items-center justify-between flex-wrap  p-6 w-[100%]">
         <div className="block lg:hidden">
           <button className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
             <svg
